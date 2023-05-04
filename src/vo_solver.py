@@ -55,7 +55,6 @@ class VOsolver:
         if scale is None:
             scale = self.__compute_ratio(triangulated)
         self.triangulated = triangulated
-        print(scale, "2")
         if self.preferred == -1 or abs(ft[self.preferred][0]) == max(abs(ft[:, 0])) and scale > 0.1:
             self.t = scale * ft
             self.R = fR

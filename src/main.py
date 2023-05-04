@@ -53,8 +53,7 @@ def run_KITTI_visual_odometry(sequences_path : str, seq_name : str, seq_idx : in
         gt_world = gt_pose.dot(vo_s.origin)
         scale = np.linalg.norm(gt_world - prev_gt)
         prev_gt = gt_world
-        print(scale, "1")
-        vo_s.run_frame(frame, scale)
+        vo_s.run_frame(frame, None)
 
         pred_pose = vo_s.get_pose().dot(vo_s.origin)
 
