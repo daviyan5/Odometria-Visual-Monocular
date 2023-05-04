@@ -62,6 +62,9 @@ Projeto de Odometria Visual Monocular, utilizando apenas uma câmera, com o data
 
 # Referências
 [1] Davide Scaramuzza and Friedrich Fraundorfer: Visual Odometry: Part I: The First 30 Years and Fundamentals
+
 [2] Davide Scaramuzza and Friedrich Fraundorfer: Visual Odometry Part II: Matching, Robustness, Optimization, and Applications
+
 [3] Avi Singh: Monocular Visual Odometry using OpenCV (https://avisingh599.github.io/vision/monocular-vo/)
+
 [4] Nicolai Nielsen: Visual Odometry with Monocular Camera For Beginners: A Project in OpenCV (https://www.youtube.com/watch?v=N451VeA8XRA)
