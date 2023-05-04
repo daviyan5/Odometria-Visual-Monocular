@@ -1,0 +1,4 @@
+references/*
+.vscode/*
+__pycache__/
+src/tests.py

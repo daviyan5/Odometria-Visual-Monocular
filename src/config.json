@@ -1,0 +1,16 @@
+{
+    "KITTI":
+        {
+            "name" : "KITTI",
+            "path" : "~/Documentos/RoboCIn/datasets/data_odometry_gray/dataset",
+            "sequences path" : "/sequences",
+            "num_sequences" : 21,
+            "poses_path" : "/poses",
+            "num_poses" : 11
+        },
+    "EuRoc MAV":
+        {
+            "name": "EuRoc MAV",
+            "path": "/home/davi/Documentos/RoboCIn/datasets/MH_01_easy"
+        }
+}
