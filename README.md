@@ -39,8 +39,6 @@ Projeto de Odometria Visual Monocular, utilizando apenas uma câmera, com o data
 4) Executar o notebook ./src/KITTI.ipynb
 
 
-
-
 # TODO:
 1) Ajuste de Escala.
 - O problema de cálculo da escala relativa em odometria visual monocular é complexo e exige a utilização de técnicas de visão computacional e geometria projetiva.
