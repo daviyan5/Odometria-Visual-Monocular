@@ -31,6 +31,7 @@ Projeto de Odometria Visual Monocular, utilizando apenas uma câmera, com o data
     - Matplotlib
     - Pandas
     - Dataset KITTI
+    - Jupyter Notebook
 # Uso
 
 1) Instalar as dependências
