@@ -39,26 +39,6 @@ Projeto de Odometria Visual Monocular, utilizando apenas uma câmera, com o data
 3) Alterar a localização do dataset KITTI no arquivo ./src/config.json
 4) Executar o notebook ./src/KITTI.ipynb
 
-
-# TODO:
-1) Ajuste de Escala.
-- O problema de cálculo da escala relativa em odometria visual monocular é complexo e exige a utilização de técnicas de visão computacional e geometria projetiva.
-- Abaixo a comparação entre um resultado com escala perfeita e com um cálculo simples de escala:
-
-![Comparação com Escala e sem Escala](./resources/scale_comparison.png)
-
-2) Ajuste em pacote. 
-- Erros cumulativos afetam o cálculo da próxima posição. Há a necessidade de realizar ajustes (com ajuda de filtros ou machine learning) na posição a cada $m$ iterações.
-
-3) Implementação no dataset EuRoc MAV
-- No momento, apenas o uso no dataset KITTI foi implementado. 
-
-4) Implementação com CUDA
-- É possível utilizar o CUDA em conjunto com o OpenCV para agilizar os cálculos de odometria.
-
-5) Implementação com C++
-- Como a biblioteca OpenCV está disponível em C++, é possível implementar o algoritmo em C++ para melhorar considerávelmente a performance.
-
 # Referências
 [1] Davide Scaramuzza and Friedrich Fraundorfer: Visual Odometry: Part I: The First 30 Years and Fundamentals
 
